@@ -1,0 +1,12 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "discord-py>=2.5.2",
+    "eth-abi>=5.2.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "web3>=7.13.0",
+]

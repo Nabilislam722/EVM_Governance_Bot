@@ -1,0 +1,2374 @@
+2025-08-10 14:49:24 - root - INFO - Logging system initialized
+2025-08-10 14:49:24 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-10 14:49:25 - root - INFO - Command tree synced
+2025-08-10 14:49:27 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 14:49:27 - root - INFO - Bot is ready!
+2025-08-10 14:49:27 - root - INFO - Checking for new proposals
+2025-08-10 14:49:27 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:49:27 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 14:49:27 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 14:49:27 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_144927.bak
+2025-08-10 14:49:27 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:49:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:49:27 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:49:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:54 - root - INFO - Logging system initialized
+2025-08-10 14:49:55 - root - INFO - Command tree synced
+2025-08-10 14:49:57 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 14:49:57 - root - INFO - Bot is ready!
+2025-08-10 14:49:57 - root - INFO - Checking for new proposals
+2025-08-10 14:49:57 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:49:57 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 14:49:57 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 14:49:57 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_144957.bak
+2025-08-10 14:49:57 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:49:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:49:57 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:49:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - root - INFO - Checking for new proposals
+2025-08-10 14:50:27 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:50:27 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_145027.bak
+2025-08-10 14:50:27 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:50:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:50:27 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:50:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - root - INFO - Checking for new proposals
+2025-08-10 14:50:57 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:50:57 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_145057.bak
+2025-08-10 14:50:57 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:50:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:50:57 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:50:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:51:52 - root - INFO - Logging system initialized
+2025-08-10 14:51:53 - root - INFO - Command tree synced
+2025-08-10 14:51:55 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 14:51:55 - root - INFO - Bot is ready!
+2025-08-10 14:51:55 - root - INFO - Checking for new proposals
+2025-08-10 14:51:55 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:51:55 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 14:51:55 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 14:51:55 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_145155.bak
+2025-08-10 14:51:55 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:51:56 - utils.subquery - INFO - Successfully connected to Substrate network
+2025-08-10 14:52:33 - root - INFO - Logging system initialized
+2025-08-10 14:52:34 - root - INFO - Command tree synced
+2025-08-10 14:52:36 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 14:52:36 - root - INFO - Bot is ready!
+2025-08-10 14:52:36 - root - INFO - Checking for new proposals
+2025-08-10 14:52:36 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:52:36 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 14:52:36 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 14:52:36 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_145236.bak
+2025-08-10 14:52:36 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_145236.bak
+2025-08-10 14:52:36 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:52:36 - utils.subquery - INFO - Successfully connected to Substrate network
+2025-08-10 14:53:25 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 261, in check_governance
+    new_referendums, referendum_info_for = await opengov2.check_referendums()
+  File "/home/runner/workspace/bot/utils/gov2.py", line 22, in check_referendums
+    ongoing_refs = await self.substrate.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:53:26 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:26 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:29 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:29 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:35 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:35 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:35 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:53:35 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:53:45 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:53:55 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:54:05 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:54:15 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 272, in rpc_request
+    self.websocket.send(json.dumps(payload))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 297, in send
+    return self.send_frame(frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 337, in send_frame
+    l = self._send(data)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 559, in _send
+    return send(self.sock, data)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 179, in send
+    return _send()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 156, in _send
+    return sock.send(data)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1242, in send
+    return self._sslobj.write(data)
+
+2025-08-10 14:54:23 - root - INFO - 19 new proposal(s) found
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1668 Referendum #1668
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1668: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1676 Referendum #1676
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1676: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1679 Referendum #1679
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1679: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1680 Referendum #1680
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1680: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1681 Referendum #1681
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1681: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1682 Referendum #1682
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1682: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1684 Referendum #1684
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1684: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1686 Referendum #1686
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1686: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1688 Referendum #1688
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1688: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1689 Referendum #1689
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1689: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1691 Referendum #1691
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1691: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1692 Referendum #1692
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1692: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1693 Referendum #1693
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1693: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1694 Referendum #1694
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1694: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1695 Referendum #1695
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1695: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1696 Referendum #1696
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1696: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1697 Referendum #1697
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1697: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1698 Referendum #1698
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1698: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - INFO - Creating thread on Discord: #1699 Referendum #1699
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1699: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - utils.subquery - INFO - Substrate connection closed
+2025-08-10 14:54:23 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 14:57:55 - root - INFO - Logging system initialized
+2025-08-10 14:57:56 - root - INFO - Command tree synced
+2025-08-10 14:57:58 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 14:57:58 - root - INFO - Bot is ready!
+2025-08-10 14:57:58 - root - INFO - Checking for new proposals
+2025-08-10 14:57:58 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 14:57:58 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 14:57:58 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 14:57:58 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_145155.bak
+2025-08-10 14:57:58 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_145758.bak
+2025-08-10 14:57:58 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 14:57:58 - utils.subquery - INFO - Successfully connected to Substrate network
+2025-08-10 14:58:47 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 261, in check_governance
+    new_referendums, referendum_info_for = await opengov2.check_referendums()
+  File "/home/runner/workspace/bot/utils/gov2.py", line 22, in check_referendums
+    ongoing_refs = await self.substrate.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:58:49 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:49 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:52 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:52 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 261, in check_governance
+    new_referendums, referendum_info_for = await opengov2.check_referendums()
+  File "/home/runner/workspace/bot/utils/gov2.py", line 34, in check_referendums
+    referendum_info = await self._process_referendum(ref_id, ref_data)
+  File "/home/runner/workspace/bot/utils/gov2.py", line 78, in _process_referendum
+    'content': await self._extract_content(ref_id, ref_data),
+  File "/home/runner/workspace/bot/utils/gov2.py", line 131, in _extract_content
+    call_data, preimage_hash = await self.substrate.referendum_call_data(
+  File "/home/runner/workspace/bot/utils/subquery.py", line 155, in referendum_call_data
+    preimage = await self._get_preimage(preimage_hash)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 170, in _get_preimage
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 272, in rpc_request
+    self.websocket.send(json.dumps(payload))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 297, in send
+    return self.send_frame(frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 337, in send_frame
+    l = self._send(data)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 559, in _send
+    return send(self.sock, data)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 179, in send
+    return _send()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 156, in _send
+    return sock.send(data)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1242, in send
+    return self._sslobj.write(data)
+
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:58 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:58 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:59 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:59 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:59 - root - INFO - Checking active proposals from polkadot
+2025-08-10 14:59:07 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:59:17 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:59:27 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:59:37 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 14:59:46 - root - INFO - 19 new proposal(s) found
+2025-08-10 14:59:46 - root - INFO - Creating thread on Discord: #1668 Referendum #1668
+2025-08-10 14:59:46 - root - INFO - Created new tag: Unknown Origin
+2025-08-10 14:59:46 - root - ERROR - Error in thread command: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-10 14:59:46 - discord.app_commands.tree - ERROR - Ignoring exception in command 'thread'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 505, in thread_command
+    await interaction.response.send_message(f"Thread {action} executed", ephemeral=True)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/main.py", line 508, in thread_command
+    await interaction.response.send_message("Command failed", ephemeral=True)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'thread' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-10 14:59:47 - root - INFO - Created thread for proposal #1668
+2025-08-10 14:59:47 - root - ERROR - Error processing proposal #1668: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:47 - root - INFO - Creating thread on Discord: #1676 Referendum #1676
+2025-08-10 14:59:47 - root - INFO - Created thread for proposal #1676
+2025-08-10 14:59:48 - root - ERROR - Error processing proposal #1676: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:48 - root - INFO - Creating thread on Discord: #1679 Referendum #1679
+2025-08-10 14:59:48 - root - INFO - Created thread for proposal #1679
+2025-08-10 14:59:49 - root - ERROR - Error processing proposal #1679: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:49 - root - INFO - Creating thread on Discord: #1680 Referendum #1680
+2025-08-10 14:59:49 - root - INFO - Created thread for proposal #1680
+2025-08-10 14:59:50 - root - ERROR - Error processing proposal #1680: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:50 - root - INFO - Creating thread on Discord: #1681 Referendum #1681
+2025-08-10 14:59:50 - root - INFO - Created thread for proposal #1681
+2025-08-10 14:59:50 - root - ERROR - Error processing proposal #1681: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:50 - root - INFO - Creating thread on Discord: #1682 Referendum #1682
+2025-08-10 14:59:51 - root - INFO - Created thread for proposal #1682
+2025-08-10 14:59:51 - root - ERROR - Error processing proposal #1682: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:51 - root - INFO - Creating thread on Discord: #1684 Referendum #1684
+2025-08-10 14:59:51 - root - INFO - Created thread for proposal #1684
+2025-08-10 14:59:52 - root - ERROR - Error processing proposal #1684: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:52 - root - INFO - Creating thread on Discord: #1686 Referendum #1686
+2025-08-10 14:59:52 - root - INFO - Created thread for proposal #1686
+2025-08-10 14:59:53 - root - ERROR - Error processing proposal #1686: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:53 - root - INFO - Creating thread on Discord: #1688 Referendum #1688
+2025-08-10 14:59:55 - root - INFO - Created thread for proposal #1688
+2025-08-10 14:59:56 - root - ERROR - Error processing proposal #1688: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:56 - root - INFO - Creating thread on Discord: #1689 Referendum #1689
+2025-08-10 14:59:56 - root - INFO - Created thread for proposal #1689
+2025-08-10 14:59:56 - root - ERROR - Error processing proposal #1689: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:56 - root - INFO - Creating thread on Discord: #1691 Referendum #1691
+2025-08-10 14:59:56 - root - INFO - Created thread for proposal #1691
+2025-08-10 14:59:57 - root - ERROR - Error processing proposal #1691: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:57 - root - INFO - Creating thread on Discord: #1692 Referendum #1692
+2025-08-10 14:59:57 - root - INFO - Created thread for proposal #1692
+2025-08-10 14:59:58 - root - ERROR - Error processing proposal #1692: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:58 - root - INFO - Creating thread on Discord: #1693 Referendum #1693
+2025-08-10 14:59:58 - root - INFO - Created thread for proposal #1693
+2025-08-10 14:59:58 - root - ERROR - Error processing proposal #1693: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:58 - root - INFO - Creating thread on Discord: #1694 Referendum #1694
+2025-08-10 14:59:59 - root - INFO - Created thread for proposal #1694
+2025-08-10 14:59:59 - root - ERROR - Error processing proposal #1694: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:59 - root - INFO - Creating thread on Discord: #1695 Referendum #1695
+2025-08-10 14:59:59 - root - INFO - Created thread for proposal #1695
+2025-08-10 15:00:00 - root - ERROR - Error processing proposal #1695: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:00 - root - INFO - Creating thread on Discord: #1696 Referendum #1696
+2025-08-10 15:00:00 - root - INFO - Created thread for proposal #1696
+2025-08-10 15:00:01 - root - ERROR - Error processing proposal #1696: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:01 - root - INFO - Creating thread on Discord: #1697 Referendum #1697
+2025-08-10 15:00:01 - root - INFO - Created thread for proposal #1697
+2025-08-10 15:00:02 - root - ERROR - Error processing proposal #1697: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:02 - root - INFO - Creating thread on Discord: #1698 Referendum #1698
+2025-08-10 15:00:02 - root - INFO - Created thread for proposal #1698
+2025-08-10 15:00:03 - root - ERROR - Error processing proposal #1698: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:03 - root - INFO - Creating thread on Discord: #1699 Referendum #1699
+2025-08-10 15:00:04 - root - INFO - Created thread for proposal #1699
+2025-08-10 15:00:04 - root - ERROR - Error processing proposal #1699: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:04 - utils.subquery - INFO - Substrate connection closed
+2025-08-10 15:00:04 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 15:00:04 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 15:00:04 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 15:00:04 - root - INFO - Syncing embeds
+2025-08-10 15:00:04 - root - INFO - Rechecking proposals
+2025-08-10 15:03:51 - root - INFO - Logging system initialized
+2025-08-10 15:03:52 - root - INFO - Command tree synced
+2025-08-10 15:03:54 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 15:03:54 - root - INFO - Bot is ready!
+2025-08-10 15:03:54 - root - INFO - Checking for new proposals
+2025-08-10 15:03:54 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 15:03:54 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 15:03:54 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 15:03:54 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_145057.bak
+2025-08-10 15:03:54 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_150354.bak
+2025-08-10 15:03:54 - utils.subquery - INFO - Connecting to wss://polkadot.dotters.network
+2025-08-10 15:03:54 - utils.subquery - INFO - Successfully connected to Substrate network
+2025-08-10 15:04:43 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 261, in check_governance
+    new_referendums, referendum_info_for = await opengov2.check_referendums()
+  File "/home/runner/workspace/bot/utils/gov2.py", line 22, in check_referendums
+    ongoing_refs = await self.substrate.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 15:04:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 261, in check_governance
+    new_referendums, referendum_info_for = await opengov2.check_referendums()
+  File "/home/runner/workspace/bot/utils/gov2.py", line 34, in check_referendums
+    referendum_info = await self._process_referendum(ref_id, ref_data)
+  File "/home/runner/workspace/bot/utils/gov2.py", line 81, in _process_referendum
+    'created_at': await self._get_creation_time(ref_data)
+  File "/home/runner/workspace/bot/utils/gov2.py", line 190, in _get_creation_time
+    timestamp = await self.substrate.get_block_timestamp(block_number)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 200, in get_block_timestamp
+    block = self.substrate.get_block(block_hash)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 2492, in get_block
+    return self.__get_block_handler(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 2451, in __get_block_handler
+    return decode_block(response['result']['block'], block_data_hash=block_hash)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 2343, in decode_block
+    extrinsic_decoder.decode(check_remaining=self.config.get('strict_scale_decode'))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 2891, in process
+    self.value_object.update(self.process_type('Inherent', metadata=self.metadata).value_object)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 1538, in process
+    call_obj = self.process_type(call_type_string, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 1240, in process
+    result_obj = self.process_type(enum_type_mapping[1], metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 972, in process
+    element = self.process_type(self.sub_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 983, in process_type
+    obj.decode(check_remaining=False)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 878, in decode
+    self.value_serialized = self.process()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 572, in process
+    field_obj = self.process_type(data_type, metadata=self.metadata)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 982, in process_type
+    obj = self.runtime_config.create_scale_object(type_string, self.data, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/base.py", line 194, in create_scale_object
+    return decoder_class(data=data, **kwargs)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/scalecodec/types.py", line 629, in __init__
+    def __init__(self, data=None, type_mapping=None, **kwargs):
+
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:55 - root - INFO - Checking active proposals from polkadot
+2025-08-10 15:05:03 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 15:05:13 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 15:05:23 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 987, in query
+    block_hash = self.get_chain_head()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 441, in get_chain_head
+    response = self.rpc_request("chain_getHead", [])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 15:05:33 - discord.gateway - WARNING - Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/home/runner/workspace/main.py", line 50, in <module>
+    main()
+  File "/home/runner/workspace/main.py", line 42, in main
+    asyncio.run(bot_main())
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 641, in run_until_complete
+    self.run_forever()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 70, in ongoing_referendums
+    ref_info = await self.get_referendum_info(ref_id)
+  File "/home/runner/workspace/bot/utils/subquery.py", line 93, in get_referendum_info
+    result = self.substrate.query(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 1038, in query
+    response = self.rpc_request("state_getStorageAt", [storage_key.to_hex(), block_hash])
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/base.py", line 329, in rpc_request
+    self.__rpc_message_queue.append(json.loads(self.websocket.recv()))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 388, in recv
+    opcode, data = self.recv_data()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 416, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 437, in recv_data_frame
+    frame = self.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 478, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 363, in recv_frame
+    self.recv_header()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 319, in recv_header
+    header = self.recv_strict(2)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_abnf.py", line 398, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_core.py", line 563, in _recv
+    return recv(self.sock, bufsize)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 118, in recv
+    bytes_ = _recv()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/websocket/_socket.py", line 97, in _recv
+    return sock.recv(bufsize)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1295, in recv
+    return self.read(buflen)
+  File "/nix/store/7d088dip86hlzri9sk0h78b63yfmx0a0-python3-3.11.13/lib/python3.11/ssl.py", line 1168, in read
+    return self._sslobj.read(len)
+
+2025-08-10 15:05:42 - root - INFO - 19 new proposal(s) found
+2025-08-10 15:05:42 - root - INFO - Creating thread on Discord: #1668 Referendum #1668
+2025-08-10 15:05:42 - root - INFO - Created thread for proposal #1668
+2025-08-10 15:05:45 - root - INFO - Created new role: DOT-GOV
+2025-08-10 15:05:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:45 - root - INFO - Creating thread on Discord: #1676 Referendum #1676
+2025-08-10 15:05:45 - root - INFO - Created thread for proposal #1676
+2025-08-10 15:05:47 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:47 - root - INFO - Creating thread on Discord: #1679 Referendum #1679
+2025-08-10 15:05:48 - root - INFO - Created thread for proposal #1679
+2025-08-10 15:05:50 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:50 - root - INFO - Creating thread on Discord: #1680 Referendum #1680
+2025-08-10 15:05:50 - root - INFO - Created thread for proposal #1680
+2025-08-10 15:05:52 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:52 - root - INFO - Creating thread on Discord: #1681 Referendum #1681
+2025-08-10 15:05:52 - root - INFO - Created thread for proposal #1681
+2025-08-10 15:05:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:54 - root - INFO - Creating thread on Discord: #1682 Referendum #1682
+2025-08-10 15:05:55 - root - INFO - Created thread for proposal #1682
+2025-08-10 15:05:56 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:57 - root - INFO - Creating thread on Discord: #1684 Referendum #1684
+2025-08-10 15:05:57 - root - INFO - Created thread for proposal #1684
+2025-08-10 15:05:59 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:59 - root - INFO - Creating thread on Discord: #1686 Referendum #1686
+2025-08-10 15:05:59 - root - INFO - Created thread for proposal #1686
+2025-08-10 15:06:01 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:01 - root - INFO - Creating thread on Discord: #1688 Referendum #1688
+2025-08-10 15:06:02 - root - INFO - Created thread for proposal #1688
+2025-08-10 15:06:03 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:04 - root - INFO - Creating thread on Discord: #1689 Referendum #1689
+2025-08-10 15:06:04 - root - INFO - Created thread for proposal #1689
+2025-08-10 15:06:06 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:06 - root - INFO - Creating thread on Discord: #1691 Referendum #1691
+2025-08-10 15:06:06 - root - INFO - Created thread for proposal #1691
+2025-08-10 15:06:09 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:09 - root - INFO - Creating thread on Discord: #1692 Referendum #1692
+2025-08-10 15:06:10 - root - INFO - Created thread for proposal #1692
+2025-08-10 15:06:12 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:12 - root - INFO - Creating thread on Discord: #1693 Referendum #1693
+2025-08-10 15:06:12 - root - INFO - Created thread for proposal #1693
+2025-08-10 15:06:14 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:14 - root - INFO - Creating thread on Discord: #1694 Referendum #1694
+2025-08-10 15:06:14 - root - INFO - Created thread for proposal #1694
+2025-08-10 15:06:16 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:16 - root - INFO - Creating thread on Discord: #1695 Referendum #1695
+2025-08-10 15:06:16 - root - INFO - Created thread for proposal #1695
+2025-08-10 15:06:18 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:19 - root - INFO - Creating thread on Discord: #1696 Referendum #1696
+2025-08-10 15:06:19 - root - INFO - Created thread for proposal #1696
+2025-08-10 15:06:21 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:21 - root - INFO - Creating thread on Discord: #1697 Referendum #1697
+2025-08-10 15:06:21 - root - INFO - Created thread for proposal #1697
+2025-08-10 15:06:23 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:24 - root - INFO - Creating thread on Discord: #1698 Referendum #1698
+2025-08-10 15:06:24 - root - INFO - Created thread for proposal #1698
+2025-08-10 15:06:26 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:26 - root - INFO - Creating thread on Discord: #1699 Referendum #1699
+2025-08-10 15:06:27 - root - INFO - Created thread for proposal #1699
+2025-08-10 15:06:31 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:31 - utils.subquery - INFO - Substrate connection closed
+2025-08-10 15:06:31 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 15:06:31 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 15:06:31 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 15:06:31 - root - INFO - Syncing embeds
+2025-08-10 15:06:31 - root - INFO - Rechecking proposals
+2025-08-10 15:11:20 - root - INFO - Logging system initialized
+2025-08-10 15:13:08 - root - INFO - Logging system initialized
+2025-08-10 15:13:09 - root - INFO - Command tree synced
+2025-08-10 15:13:11 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 15:13:11 - root - INFO - Bot is ready!
+2025-08-10 15:13:11 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 15:13:11 - root - INFO - Checking for new proposals
+2025-08-10 15:13:11 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 15:13:11 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 15:13:11 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 15:13:11 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_145027.bak
+2025-08-10 15:13:11 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_151311.bak
+2025-08-10 15:13:11 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Latest Hemi Network block: 3893998
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Latest Hemi Network block: 3893998
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 15:13:12 - root - INFO - Checking active proposals from hemi
+2025-08-10 15:13:12 - utils.hemi_network - INFO - Latest Hemi Network block: 3893998
+2025-08-10 15:13:13 - utils.hemi_network - INFO - Latest Hemi Network block: 3893998
+2025-08-10 15:13:13 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:13:13 - root - INFO - Archived 38 completed proposals
+2025-08-10 15:13:13 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 15:13:13 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 15:13:13 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 15:13:13 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 15:13:14 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 15:13:15 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 15:13:15 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 15:13:15 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 15:13:15 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 15:13:15 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 15:13:16 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 15:13:16 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 15:13:16 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 15:13:16 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 15:13:17 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 15:13:18 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 15:13:19 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 15:13:19 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 15:13:19 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 15:13:19 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 15:13:19 - root - INFO - 2 new proposal(s) found
+2025-08-10 15:13:19 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 15:13:19 - root - INFO - Created new tag: Track treasury
+2025-08-10 15:13:19 - root - INFO - Created thread for proposal #1
+2025-08-10 15:13:22 - root - ERROR - Error processing proposal #1: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 399, in check_governance
+    await new_proposal_thread.message.edit(embed=general_info)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+2025-08-10 15:13:22 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 15:13:22 - root - INFO - Created new tag: Track security
+2025-08-10 15:13:22 - root - INFO - Created thread for proposal #2
+2025-08-10 15:13:24 - root - ERROR - Error processing proposal #2: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 399, in check_governance
+    await new_proposal_thread.message.edit(embed=general_info)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+2025-08-10 15:13:24 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 15:13:24 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 15:13:24 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 15:13:24 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 15:13:24 - root - INFO - Syncing embeds
+2025-08-10 15:13:24 - root - INFO - Rechecking proposals
+2025-08-10 15:13:55 - root - INFO - Logging system initialized
+2025-08-10 15:13:56 - root - INFO - Command tree synced
+2025-08-10 15:13:58 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 15:13:58 - root - INFO - Bot is ready!
+2025-08-10 15:13:58 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 15:13:58 - root - INFO - Checking for new proposals
+2025-08-10 15:13:58 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 15:13:58 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 15:13:58 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 15:13:58 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_144957.bak
+2025-08-10 15:13:58 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_151358.bak
+2025-08-10 15:13:58 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 15:13:58 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 15:13:59 - utils.hemi_network - INFO - Latest Hemi Network block: 3894001
+2025-08-10 15:13:59 - utils.hemi_network - INFO - Latest Hemi Network block: 3894001
+2025-08-10 15:13:59 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:13:59 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 15:13:59 - root - INFO - Checking active proposals from hemi
+2025-08-10 15:13:59 - utils.hemi_network - INFO - Latest Hemi Network block: 3894001
+2025-08-10 15:14:00 - utils.hemi_network - INFO - Latest Hemi Network block: 3894001
+2025-08-10 15:14:00 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:14:00 - root - INFO - Archived 38 completed proposals
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 15:14:00 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 15:14:01 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 15:14:02 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 15:14:03 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 15:14:04 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 15:14:04 - root - INFO - 2 new proposal(s) found
+2025-08-10 15:14:04 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 15:14:05 - root - INFO - Created thread for proposal #1
+2025-08-10 15:14:08 - utils.hemi_network - INFO - Latest Hemi Network block: 3894002
+2025-08-10 15:14:08 - utils.hemi_network - INFO - Latest Hemi Network block: 3894002
+2025-08-10 15:14:08 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:14:08 - root - ERROR - Error processing proposal #1: name 'process_call_data' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 410, in check_governance
+    call_data = await process_call_data.consolidate_call_args(call_data)
+                      ^^^^^^^^^^^^^^^^^
+NameError: name 'process_call_data' is not defined
+2025-08-10 15:14:08 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 15:14:09 - root - INFO - Created thread for proposal #2
+2025-08-10 15:14:12 - utils.hemi_network - INFO - Latest Hemi Network block: 3894003
+2025-08-10 15:14:13 - utils.hemi_network - INFO - Latest Hemi Network block: 3894003
+2025-08-10 15:14:13 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:14:13 - root - ERROR - Error processing proposal #2: name 'process_call_data' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 410, in check_governance
+    call_data = await process_call_data.consolidate_call_args(call_data)
+                      ^^^^^^^^^^^^^^^^^
+NameError: name 'process_call_data' is not defined
+2025-08-10 15:14:13 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 15:14:13 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 15:14:13 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 15:14:13 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 15:14:13 - root - INFO - Syncing embeds
+2025-08-10 15:14:13 - root - INFO - Rechecking proposals
+2025-08-10 15:24:58 - root - INFO - Logging system initialized
+2025-08-10 15:24:59 - root - INFO - Command tree synced
+2025-08-10 15:25:01 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 15:25:01 - root - INFO - Bot is ready!
+2025-08-10 15:25:01 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 15:25:01 - root - INFO - Checking for new proposals
+2025-08-10 15:25:01 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 15:25:01 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 15:25:01 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 15:25:01 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_144927.bak
+2025-08-10 15:25:01 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_152501.bak
+2025-08-10 15:25:01 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 15:25:01 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 15:25:01 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:02 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:02 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:25:02 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 15:25:02 - root - INFO - Checking active proposals from hemi
+2025-08-10 15:25:02 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:03 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:03 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:25:03 - root - INFO - Archived 38 completed proposals
+2025-08-10 15:25:03 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 15:25:03 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 15:25:03 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 15:25:03 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 15:25:03 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 15:25:04 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 15:25:05 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 15:25:06 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 15:25:07 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 15:25:08 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 15:25:08 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 15:25:08 - root - INFO - 2 new proposal(s) found
+2025-08-10 15:25:08 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 15:25:08 - root - INFO - Created thread for proposal #1
+2025-08-10 15:25:10 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:11 - utils.hemi_network - INFO - Latest Hemi Network block: 3894057
+2025-08-10 15:25:11 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:25:11 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 15:25:11 - root - INFO - Created thread for proposal #2
+2025-08-10 15:25:13 - utils.hemi_network - INFO - Latest Hemi Network block: 3894058
+2025-08-10 15:25:13 - utils.hemi_network - INFO - Latest Hemi Network block: 3894058
+2025-08-10 15:25:13 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 15:25:14 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 15:25:14 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 15:25:14 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 15:25:14 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 15:25:14 - root - INFO - Syncing embeds
+2025-08-10 15:25:14 - root - INFO - Rechecking proposals
+2025-08-10 22:55:37 - root - INFO - Logging system initialized
+2025-08-10 22:55:37 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-10 22:55:38 - root - INFO - Command tree synced
+2025-08-10 22:55:41 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 22:55:41 - root - INFO - Bot is ready!
+2025-08-10 22:55:41 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 22:55:41 - root - INFO - Checking for new proposals
+2025-08-10 22:55:41 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 22:55:41 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 22:55:41 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 22:55:41 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_145758.bak
+2025-08-10 22:55:41 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_225541.bak
+2025-08-10 22:55:41 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 22:55:42 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 22:55:42 - utils.hemi_network - INFO - Latest Hemi Network block: 3894510
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Latest Hemi Network block: 3894510
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 22:55:43 - root - INFO - Checking active proposals from hemi
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Latest Hemi Network block: 3894510
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Latest Hemi Network block: 3894510
+2025-08-10 22:55:43 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:55:43 - root - INFO - Archived 38 completed proposals
+2025-08-10 22:55:44 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 22:55:44 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 22:55:45 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 22:55:45 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 22:55:45 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 22:55:46 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 22:55:46 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 22:55:47 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 22:55:47 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 22:55:47 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 22:55:48 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 22:55:48 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 22:55:49 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 22:55:49 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 22:55:50 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 22:55:50 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 22:55:50 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 22:55:51 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 22:55:51 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 22:55:52 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 22:55:52 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 22:55:52 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 22:55:53 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 22:55:53 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 22:55:54 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 22:55:54 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 22:55:55 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 22:55:55 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 22:55:56 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 22:55:56 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 22:55:56 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 22:55:57 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 22:55:58 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 22:55:58 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 22:55:58 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 22:55:59 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 22:55:59 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 22:56:00 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 22:56:00 - root - INFO - 2 new proposal(s) found
+2025-08-10 22:56:00 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 22:56:00 - root - INFO - Created thread for proposal #1
+2025-08-10 22:56:05 - utils.hemi_network - INFO - Latest Hemi Network block: 3894512
+2025-08-10 22:56:06 - utils.hemi_network - INFO - Latest Hemi Network block: 3894512
+2025-08-10 22:56:06 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:56:07 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 22:56:08 - root - INFO - Created thread for proposal #2
+2025-08-10 22:56:14 - utils.hemi_network - INFO - Latest Hemi Network block: 3894513
+2025-08-10 22:56:15 - utils.hemi_network - INFO - Latest Hemi Network block: 3894513
+2025-08-10 22:56:15 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:56:15 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 22:56:15 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 22:56:15 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 22:56:15 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 22:56:15 - root - INFO - Syncing embeds
+2025-08-10 22:56:15 - root - INFO - Rechecking proposals
+2025-08-10 22:59:04 - root - INFO - Logging system initialized
+2025-08-10 22:59:04 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-10 22:59:06 - root - INFO - Command tree synced
+2025-08-10 22:59:09 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 22:59:09 - root - INFO - Bot is ready!
+2025-08-10 22:59:09 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 22:59:09 - root - INFO - Checking for new proposals
+2025-08-10 22:59:09 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 22:59:09 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 22:59:09 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 22:59:09 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_150354.bak
+2025-08-10 22:59:09 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_225909.bak
+2025-08-10 22:59:09 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 22:59:09 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 22:59:10 - utils.hemi_network - INFO - Latest Hemi Network block: 3894527
+2025-08-10 22:59:10 - utils.hemi_network - INFO - Latest Hemi Network block: 3894527
+2025-08-10 22:59:10 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:59:10 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 22:59:10 - root - INFO - Checking active proposals from hemi
+2025-08-10 22:59:11 - utils.hemi_network - INFO - Latest Hemi Network block: 3894527
+2025-08-10 22:59:11 - utils.hemi_network - INFO - Latest Hemi Network block: 3894528
+2025-08-10 22:59:11 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:59:11 - root - INFO - Archived 38 completed proposals
+2025-08-10 22:59:11 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 22:59:12 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 22:59:12 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 22:59:13 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 22:59:13 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 22:59:14 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 22:59:14 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 22:59:14 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 22:59:15 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 22:59:15 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 22:59:16 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 22:59:16 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 22:59:16 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 22:59:17 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 22:59:18 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 22:59:18 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 22:59:19 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 22:59:19 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 22:59:19 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 22:59:20 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 22:59:20 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 22:59:21 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 22:59:21 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 22:59:22 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 22:59:22 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 22:59:22 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 22:59:23 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 22:59:23 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 22:59:24 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 22:59:24 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 22:59:24 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 22:59:25 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 22:59:25 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 22:59:26 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 22:59:26 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 22:59:26 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 22:59:27 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 22:59:27 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 22:59:27 - root - INFO - 2 new proposal(s) found
+2025-08-10 22:59:27 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 22:59:28 - root - INFO - Created thread for proposal #1
+2025-08-10 22:59:33 - utils.hemi_network - INFO - Latest Hemi Network block: 3894529
+2025-08-10 22:59:34 - utils.hemi_network - INFO - Latest Hemi Network block: 3894529
+2025-08-10 22:59:34 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:59:34 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 22:59:35 - root - INFO - Created thread for proposal #2
+2025-08-10 22:59:40 - utils.hemi_network - INFO - Latest Hemi Network block: 3894530
+2025-08-10 22:59:41 - utils.hemi_network - INFO - Latest Hemi Network block: 3894530
+2025-08-10 22:59:41 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 22:59:41 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 22:59:41 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 22:59:41 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 22:59:41 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 22:59:41 - root - INFO - Syncing embeds
+2025-08-10 22:59:41 - root - INFO - Rechecking proposals
+2025-08-10 23:01:16 - root - INFO - Logging system initialized
+2025-08-10 23:01:16 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-10 23:01:18 - root - INFO - Command tree synced
+2025-08-10 23:01:21 - root - INFO - Logged in as bot1402926756062691339#4536 (ID: 1402926756062691339)
+2025-08-10 23:01:21 - root - INFO - Bot is ready!
+2025-08-10 23:01:21 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 23:01:21 - root - INFO - Checking for new proposals
+2025-08-10 23:01:21 - utils.task_handler - INFO - Task autonomous_voting is not running, considering restart
+2025-08-10 23:01:21 - utils.task_handler - INFO - Stopped task: sync_embeds
+2025-08-10 23:01:21 - utils.task_handler - INFO - Stopped task: recheck_proposals
+2025-08-10 23:01:21 - root - INFO - Removed old backup: ../data/backup/vote_counts.json_20250810_151311.bak
+2025-08-10 23:01:21 - root - INFO - Created backup: ../data/backup/vote_counts.json_20250810_230121.bak
+2025-08-10 23:01:21 - utils.hemi_network - INFO - Connecting to Hemi Network
+2025-08-10 23:01:21 - utils.hemi_network - INFO - Successfully connected to Hemi Network (Chain ID: 743111)
+2025-08-10 23:01:22 - utils.hemi_network - INFO - Latest Hemi Network block: 3894538
+2025-08-10 23:01:22 - utils.hemi_network - INFO - Latest Hemi Network block: 3894538
+2025-08-10 23:01:22 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 23:01:22 - utils.hemi_network - INFO - Found 2 new Hemi Network proposals
+2025-08-10 23:01:22 - root - INFO - Checking active proposals from hemi
+2025-08-10 23:01:23 - utils.hemi_network - INFO - Latest Hemi Network block: 3894538
+2025-08-10 23:01:23 - utils.hemi_network - INFO - Latest Hemi Network block: 3894539
+2025-08-10 23:01:23 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 23:01:23 - root - INFO - Archived 38 completed proposals
+2025-08-10 23:01:24 - root - INFO - Locked thread 1404117027911893113
+2025-08-10 23:01:24 - root - INFO - Locked thread 1404117031501955224
+2025-08-10 23:01:24 - root - INFO - Locked thread 1404117035306323991
+2025-08-10 23:01:25 - root - INFO - Locked thread 1404117038615756834
+2025-08-10 23:01:25 - root - INFO - Locked thread 1404117042713333811
+2025-08-10 23:01:26 - root - INFO - Locked thread 1404117045624307772
+2025-08-10 23:01:26 - root - INFO - Locked thread 1404117048006672540
+2025-08-10 23:01:27 - root - INFO - Locked thread 1404117052888711311
+2025-08-10 23:01:27 - root - INFO - Locked thread 1404117057317900378
+2025-08-10 23:01:27 - root - INFO - Locked thread 1404117067111731296
+2025-08-10 23:01:28 - root - INFO - Locked thread 1404117069825441884
+2025-08-10 23:01:28 - root - INFO - Locked thread 1404117073013113002
+2025-08-10 23:01:29 - root - INFO - Locked thread 1404117076465156107
+2025-08-10 23:01:29 - root - INFO - Locked thread 1404117079770009801
+2025-08-10 23:01:30 - root - INFO - Locked thread 1404117082504826890
+2025-08-10 23:01:30 - root - INFO - Locked thread 1404117085855940690
+2025-08-10 23:01:30 - root - INFO - Locked thread 1404117090046054410
+2025-08-10 23:01:31 - root - INFO - Locked thread 1404117094605390038
+2025-08-10 23:01:31 - root - INFO - Locked thread 1404117099588354231
+2025-08-10 23:01:32 - root - INFO - Locked thread 1404118520979259522
+2025-08-10 23:01:32 - root - INFO - Locked thread 1404118533746720919
+2025-08-10 23:01:33 - root - INFO - Locked thread 1404118542927921225
+2025-08-10 23:01:33 - root - INFO - Locked thread 1404118553916866721
+2025-08-10 23:01:34 - root - INFO - Locked thread 1404118562859253770
+2025-08-10 23:01:34 - root - INFO - Locked thread 1404118572380192841
+2025-08-10 23:01:34 - root - INFO - Locked thread 1404118581519712267
+2025-08-10 23:01:35 - root - INFO - Locked thread 1404118591585910846
+2025-08-10 23:01:35 - root - INFO - Locked thread 1404118601967075498
+2025-08-10 23:01:36 - root - INFO - Locked thread 1404118611026645043
+2025-08-10 23:01:36 - root - INFO - Locked thread 1404118619671101543
+2025-08-10 23:01:36 - root - INFO - Locked thread 1404118635781558422
+2025-08-10 23:01:37 - root - INFO - Locked thread 1404118645675786301
+2025-08-10 23:01:37 - root - INFO - Locked thread 1404118654806655088
+2025-08-10 23:01:38 - root - INFO - Locked thread 1404118664101236856
+2025-08-10 23:01:38 - root - INFO - Locked thread 1404118674146726113
+2025-08-10 23:01:38 - root - INFO - Locked thread 1404118684364050544
+2025-08-10 23:01:39 - root - INFO - Locked thread 1404118694963183758
+2025-08-10 23:01:39 - root - INFO - Locked thread 1404118706761629737
+2025-08-10 23:01:39 - root - INFO - 2 new proposal(s) found
+2025-08-10 23:01:39 - root - INFO - Creating thread on Discord: #1 Hemi Network Development Fund Allocation
+2025-08-10 23:01:40 - root - INFO - Created thread for proposal #1
+2025-08-10 23:01:46 - utils.hemi_network - INFO - Latest Hemi Network block: 3894540
+2025-08-10 23:01:47 - utils.hemi_network - INFO - Latest Hemi Network block: 3894540
+2025-08-10 23:01:47 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 23:01:47 - root - INFO - Creating thread on Discord: #2 Hemi Bridge Security Upgrade
+2025-08-10 23:01:48 - root - INFO - Created thread for proposal #2
+2025-08-10 23:01:53 - utils.hemi_network - INFO - Latest Hemi Network block: 3894541
+2025-08-10 23:01:54 - utils.hemi_network - INFO - Latest Hemi Network block: 3894541
+2025-08-10 23:01:54 - utils.hemi_network - INFO - Found 2 active Hemi Network proposals
+2025-08-10 23:01:54 - utils.hemi_network - INFO - Hemi Network connection closed
+2025-08-10 23:01:54 - root - INFO - Solo mode enabled - automatic voting disabled
+2025-08-10 23:01:54 - utils.task_handler - INFO - Started task: sync_embeds
+2025-08-10 23:01:54 - utils.task_handler - INFO - Started task: recheck_proposals
+2025-08-10 23:01:54 - root - INFO - Syncing embeds
+2025-08-10 23:01:54 - root - INFO - Rechecking proposals
+2025-08-10 23:11:17 - discord.app_commands.tree - ERROR - Ignoring exception in command 'vote'
+Traceback (most recent call last):
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\commands.py", line 882, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\commands.py", line 846, in _transform_arguments
+    raise CommandSignatureMismatch(self) from None
+discord.app_commands.errors.CommandSignatureMismatch: The signature for command 'vote' is different from the one provided by Discord. This can happen because either your code is out of date or you have not synced the commands with Discord, causing the mismatch in data. It is recommended to sync the command tree to fix this issue.

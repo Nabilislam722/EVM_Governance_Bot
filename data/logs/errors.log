@@ -1,0 +1,649 @@
+2025-08-10 14:49:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:27 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:49:57 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:27 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - utils.gov2 - ERROR - Error checking referendums: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - utils.subquery - ERROR - Failed to connect to Substrate: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:50:57 - root - ERROR - Error in check_governance: Package renamed, please install https://pypi.org/project/substrate-interface/
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 267, in check_governance
+    active_proposals = await substrate.ongoing_referendums_idx()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 85, in ongoing_referendums_idx
+    ongoing_refs = await self.ongoing_referendums()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/utils/subquery.py", line 59, in ongoing_referendums
+    await self._ensure_connected()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 55, in _ensure_connected
+    await self.connect()
+  File "/home/runner/workspace/bot/utils/subquery.py", line 32, in connect
+    self.substrate = SubstrateInterface(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/substrateinterface/__init__.py", line 6, in __init__
+    raise DeprecationWarning("Package renamed, please install https://pypi.org/project/substrate-interface/")
+DeprecationWarning: Package renamed, please install https://pypi.org/project/substrate-interface/
+2025-08-10 14:53:26 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:26 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:29 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:29 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:30 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:31 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:32 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:33 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:34 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:35 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:53:35 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1668: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1676: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1679: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1680: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1681: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1682: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1684: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1686: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1688: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1689: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1691: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1692: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1693: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1694: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1695: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1696: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1697: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1698: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:54:23 - root - ERROR - Error processing proposal #1699: 'origin'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 298, in check_governance
+    governance_origin = [v for i, v in values['onchain']['origin'].items()]
+                                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'origin'
+2025-08-10 14:58:49 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:49 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:52 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:52 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:53 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:54 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:55 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:56 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:57 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:58 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:58 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:59 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:58:59 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 14:59:46 - root - ERROR - Error in thread command: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-10 14:59:46 - discord.app_commands.tree - ERROR - Ignoring exception in command 'thread'
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 505, in thread_command
+    await interaction.response.send_message(f"Thread {action} executed", ephemeral=True)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/bot/main.py", line 508, in thread_command
+    await interaction.response.send_message("Command failed", ephemeral=True)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/app_commands/commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'thread' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-08-10 14:59:47 - root - ERROR - Error processing proposal #1668: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:48 - root - ERROR - Error processing proposal #1676: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:49 - root - ERROR - Error processing proposal #1679: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:50 - root - ERROR - Error processing proposal #1680: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:50 - root - ERROR - Error processing proposal #1681: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:51 - root - ERROR - Error processing proposal #1682: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:52 - root - ERROR - Error processing proposal #1684: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:53 - root - ERROR - Error processing proposal #1686: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:56 - root - ERROR - Error processing proposal #1688: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:56 - root - ERROR - Error processing proposal #1689: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:57 - root - ERROR - Error processing proposal #1691: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:58 - root - ERROR - Error processing proposal #1692: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:58 - root - ERROR - Error processing proposal #1693: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 14:59:59 - root - ERROR - Error processing proposal #1694: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:00 - root - ERROR - Error processing proposal #1695: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:01 - root - ERROR - Error processing proposal #1696: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:02 - root - ERROR - Error processing proposal #1697: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:03 - root - ERROR - Error processing proposal #1698: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:00:04 - root - ERROR - Error processing proposal #1699: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 364, in check_governance
+    await new_proposal_thread.message.edit(view=voting_buttons)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In components.0.components.2.emoji.name: Invalid emoji
+2025-08-10 15:04:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:49 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:50 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:51 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:52 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:53 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:04:54 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:45 - utils.subquery - ERROR - Error getting preimage 0x7631818c88688b37c357e6b3b1a716268651f279968bc805a27eb85cdf69c404: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:47 - utils.subquery - ERROR - Error getting preimage 0xa87d898822fe42a978d45e07fbad55fdb5facb4364e67b3e201301094bef52c9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:50 - utils.subquery - ERROR - Error getting preimage 0x7c194ae90100898dbb97d47c2a27269a4c5a2a801e0a1e2af50fd459058be71e: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:52 - utils.subquery - ERROR - Error getting preimage 0x4c797f1ee88848e090858e1ec9a9fa75df68b1975e563c02fa313fc44cde1253: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:54 - utils.subquery - ERROR - Error getting preimage 0xd7a31a076651e69470d0469578762a96c3c0f6c724dc25b8e2ef173748b901d9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:56 - utils.subquery - ERROR - Error getting preimage 0x68c6a0c1d3c0b38e4190aa8a3843ce10f568afb389987636be129af9406a9788: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:05:59 - utils.subquery - ERROR - Error getting preimage 0x3267a9d2e735e34d0e74a1ce6d505eb5a1b1528ebd20050f1844cae4e51c81f9: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:01 - utils.subquery - ERROR - Error getting preimage 0x89434456b970159f315ed2146232ffc6d7f02a6a0b0aa0536c3b7a08978d48fc: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:03 - utils.subquery - ERROR - Error getting preimage 0x9aaf16d7f2f5004e049302a34f90b22bfb23750c01a93faf7cbc4673310d9670: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:06 - utils.subquery - ERROR - Error getting preimage 0x6b046f76ce4b4fb75180e760f6b62c388719552b9315a95e56e5537358128e85: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:09 - utils.subquery - ERROR - Error getting preimage 0x0750b88750eb632908ce9390ac84d5a5b70451620d3d89ba72e3ac0ee9c18b0a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:12 - utils.subquery - ERROR - Error getting preimage 0xa274705f34527dc7c67242ec9b175295667a430a65c8b74fdebfc92f1be05604: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:14 - utils.subquery - ERROR - Error getting preimage 0x0e8f26a6ee458a134b86b21d797b133c94ad3b26dd475a28c6f12861708268c1: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:16 - utils.subquery - ERROR - Error getting preimage 0x64099692026c8e53a28f21e233ee483a8cbfd70285954b5bc86a8d4fce7f757b: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:18 - utils.subquery - ERROR - Error getting preimage 0x601465af8dd340c3e9a8cb8636abd38ed1e10c29e6b1d8a6eb70c241b3b8e453: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:21 - utils.subquery - ERROR - Error getting preimage 0xc90a031d817fb9398ddf5606a9bec41da13ae4eef6673f1b4c87277abda76139: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:23 - utils.subquery - ERROR - Error getting preimage 0xd0bf7dca7c6b7c65be5c25a35f4f0bb8a6a894713659400ab2aae39cfaf75a6a: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:26 - utils.subquery - ERROR - Error getting preimage 0x46a4df41169289488b94464f03cd1760473f08988d3f3f83fe9badb40f33f3a8: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:06:31 - utils.subquery - ERROR - Error getting preimage 0xac398ca555a5a0c8132cf7b580542031b34647df5d49dd7c9b9c95510a54a2a2: Element count of value (1) doesn't match type_definition (2)
+2025-08-10 15:13:11 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 15:13:22 - root - ERROR - Error processing proposal #1: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 399, in check_governance
+    await new_proposal_thread.message.edit(embed=general_info)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+2025-08-10 15:13:24 - root - ERROR - Error processing proposal #2: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 399, in check_governance
+    await new_proposal_thread.message.edit(embed=general_info)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 2988, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 762, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: This field is required
+2025-08-10 15:13:58 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 15:14:08 - root - ERROR - Error processing proposal #1: name 'process_call_data' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 410, in check_governance
+    call_data = await process_call_data.consolidate_call_args(call_data)
+                      ^^^^^^^^^^^^^^^^^
+NameError: name 'process_call_data' is not defined
+2025-08-10 15:14:13 - root - ERROR - Error processing proposal #2: name 'process_call_data' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/bot/main.py", line 410, in check_governance
+    call_data = await process_call_data.consolidate_call_args(call_data)
+                      ^^^^^^^^^^^^^^^^^
+NameError: name 'process_call_data' is not defined
+2025-08-10 15:25:01 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 22:55:41 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 22:59:09 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 23:01:21 - root - ERROR - Vote periods file not found for network: hemi
+2025-08-10 23:11:17 - discord.app_commands.tree - ERROR - Ignoring exception in command 'vote'
+Traceback (most recent call last):
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\commands.py", line 882, in _invoke_with_namespace
+    transformed_values = await self._transform_arguments(interaction, namespace)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "O:\HemiVoting\.venv\Lib\site-packages\discord\app_commands\commands.py", line 846, in _transform_arguments
+    raise CommandSignatureMismatch(self) from None
+discord.app_commands.errors.CommandSignatureMismatch: The signature for command 'vote' is different from the one provided by Discord. This can happen because either your code is out of date or you have not synced the commands with Discord, causing the mismatch in data. It is recommended to sync the command tree to fix this issue.
