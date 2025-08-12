@@ -1,10 +1,10 @@
 # EVM layer 2 Network Discord Governance Bot - Local Deployment
 
-## 🚀 Complete Working Code Package
+##  Complete Working Code Package
 
 This is the complete Hemi Network Discord Governance Bot code, successfully migrated from Polkadot and tested on Replit.
 
-## 📋 Setup Instructions
+##  Setup Instructions
 
 ### 1. Install Dependencies
 ```bash
@@ -41,15 +41,15 @@ echo '{}' > data/onchain_votes.json
 python main.py
 ```
 
-## 🎯 Features Working
+##  Features Working
 
-✅ **Hemi Network Connection** - Connects to Hemi Testnet (ChainID: 743111)  
-✅ **Discord Integration** - Creates forum threads for proposals  
-✅ **Voting Buttons** - 👍 AYE, 👎 NAY, ⚪ RECUSE  
-✅ **Slash Commands** - `/thread` and `/vote`  
-✅ **Real-time Monitoring** - Checks for new proposals every 3 hours  
-✅ **Role Management** - Admin, voter, notification roles  
-✅ **Data Backup** - Automatic rotating backups  
+ **Hemi Network Connection** - Connects to Hemi Testnet (ChainID: 743111)  
+ **Discord Integration** - Creates forum threads for proposals  
+ **Voting Buttons** - 👍 AYE, 👎 NAY, ⚪ RECUSE  
+ **Slash Commands** - `/thread` and `/vote`  
+ **Real-time Monitoring** - Checks for new proposals every 3 hours  
+ **Role Management** - Admin, voter, notification roles  
+ **Data Backup** - Automatic rotating backups  
 
 ## 🔧 Network Configuration
 
@@ -65,7 +65,7 @@ HEMI_RPC=https://rpc.hemi.network/rpc
 HEMI_EXPLORER=https://explorer.hemi.xyz/api/v2/
 ```
 
-## 📁 File Structure
+## File Structure
 ```
 your-project/
 ├── main.py                    # Entry point (provided below)
@@ -90,7 +90,7 @@ your-project/
     └── backup/             # Auto backups
 ```
 
-## 🎮 Discord Setup
+## Discord Setup
 
 1. **Create Discord Application**: https://discord.com/developers/applications
 2. **Create Bot**: In your application, go to "Bot" section
@@ -105,14 +105,14 @@ your-project/
    - Read Message History
    - Add Reactions
 
-## 💡 Testing
+## Testing
 
 Once running, test in your Discord server:
 - Type `/thread` or `/vote` slash commands
 - Check for auto-created proposal threads  
 - Try the voting buttons: 👍 AYE, 👎 NAY, ⚪ RECUSE
 
-## 🔍 Logs
+## Logs
 
 Bot will show in console:
 ```
@@ -122,7 +122,7 @@ Bot will show in console:
 ```
 
 ---
-**Status**: ✅ Fully tested and working on Hemi Network  
-**Migration**: ✅ Successfully converted from Polkadot to Hemi  
+**Status**: Fully tested and working on Hemi Network  
+**Migration**: Successfully converted from Polkadot to Hemi  
 **Last Updated**: August 10, 2025
 **Author**: Nabil
